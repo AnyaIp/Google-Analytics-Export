@@ -4,7 +4,8 @@ This is a repostiory to store my Python Codes to search and export data from Goo
 
 ### How to Use
 
-1. Make sure required Python packages are installed or you can simply say `pip install -r requirements.txt`.
+1.  Download this repository to your local folder `git clone https://github.com/AnyaIp/Google-Analytics-Export.git`
+2.  Make sure required Python packages are installed or you can simply say `pip install -r requirements.txt`.
    
    - google-oauth2-tool
    
@@ -12,13 +13,13 @@ This is a repostiory to store my Python Codes to search and export data from Goo
    
    - pandas
 
-2. Import my codes
+3. Import my codes
    
    ```python
    from codes.query import *
    ```
 
-3. Authentication
+4. Authentication
    
    Check the preparation section and if you do not know how to download the key file and find the view id of your Google analytics projects.
    
@@ -30,7 +31,7 @@ This is a repostiory to store my Python Codes to search and export data from Goo
    auth = gaAuth(key_file_location, view_id)
    ```
 
-4. Here are some examples, or you can check "examples.py".
+5. Here are some examples, or you can check "examples.py".
    
    If you are not sure what metrics and dimensions are available, check on [GA4 Dimensions & Metrics Explorer](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/).
    
